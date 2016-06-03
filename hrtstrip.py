@@ -4,6 +4,13 @@ Created on Fri May 20 15:29:39 2016
 
 @author: nroshak
 ganked from http://stackoverflow.com/questions/20203101/removing-n-in-between-double-quotes-in-a-csv-unix
+
+Usage:
+hrtstrip ('infile','outfile','newtext to replace \n') 
+
+Example usage:
+hrtstrip ('/Users/nroshak/prog/offshore/Entities.csv','/Users/nroshak/prog/offshore/Entities.out.csv',' ')
+
 """
 
 import sys, csv, os
